@@ -1,9 +1,7 @@
 # sysctl.pp
-#
-# $Id$
 
 class sysctl {
-    
+
     service {
         "procps":
             subscribe => File["/etc/sysctl.d"],

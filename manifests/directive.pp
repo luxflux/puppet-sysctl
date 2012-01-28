@@ -1,6 +1,4 @@
 # directive.pp
-#
-# $Id$
 
 define sysctl::directive($value) {
 
